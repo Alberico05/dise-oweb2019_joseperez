@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background:#e8e0c5;
+}
+
+p {
+    color:white;
+
+}
+
+h1,h2{
+    color:#1E1E20;
+}
+
+h3 {
+    color:#374140
+}
+
+ol,li {
+    color:white;
+}
+
+p{
+    color:#1E1E20;
+}
+
+body{
+    font-size: Arial;
+}
+
+#biografia {
+background: #d2c18c;
+}
+
+#carrera {
+    background: #cbb87a;
+}
+
+#genero {
+    background: #c4ae68;
+}
+
+#libros {
+    background: #bda456;
+}
+#galerias_de_imagenes {
+    background: #b49a46;
+}
+
+#pagina_oficial {
+    background: #a28a3f;
+}
+
+p {
+    color:lightblue;
+}
+
+p {
+    color:brown;
+    font-size: 20px;
+}
+
+/* Este es unos de los mejuores motivadores personales de estos tiempos */
+
+/* Herencia en CSS */
+
+.text-black {
+    color:#000;
+}
+
+nav {
+    background: #ddd;
+    padding: 10px_;
+    border: solid 1px gray
+}
+
+nav a {
+    color:dodgerblue;
+    padding: 5px;
+    margin: 10px;
+    border: solid 1px dodgerblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #fff;
+    display: inline-block
+
+}
+
+nav a :hover{
+    background: dodgerblue;
+    color:white;
+    
+}
