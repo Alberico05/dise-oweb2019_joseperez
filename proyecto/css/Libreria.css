@@ -1,0 +1,19 @@
+/* Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:Arial;
+}
+
+a{
+    text-decoration:none; 
+}
+
+.fullscreen{
+    widows: 100vw;
+    height: 100vh
+}
