@@ -22,8 +22,8 @@ body {
 
 nav {
     background: #3f85df;
-    width:400px;
-    height: 100vh;
+    widows: 100vw;;
+    height: 80px;
     border: solid 1px #759631;
     
 }
@@ -65,3 +65,62 @@ nav h1 {
 
 }
 
+nav li.active{
+    background: #759631;
+}
+
+nav h1{
+    display: none;
+}
+
+aside img{
+    width: 800px;
+    height: 300px;
+}
+
+body{
+    color:#000;
+    font-family: Georgia;
+    font: size 0%;
+    background:white;
+}
+
+div{
+    display: inline;
+}
+
+img {
+    display:inline-block;
+    margin: 20px;
+    padding:20px;
+   
+}
+
+ table td{
+  padding: 20px;
+padding-left: 0px;
+}
+
+b {
+    padding: 10px;
+}
+
+body {
+    margin:
+    
+}
+
+p{
+padding: 10px;
+}
+body{
+    background: #759631;
+}
+
+li {
+    display: inline-block;
+}
+
+body{
+    background: url(https://images.pexels.com/photos/372098/pexels-photo-372098.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
+}
