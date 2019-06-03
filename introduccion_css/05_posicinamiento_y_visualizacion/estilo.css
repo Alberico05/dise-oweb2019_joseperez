@@ -1,0 +1,94 @@
+/*Reset*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial;
+}
+
+ .container {
+     background:white;
+    width: 90%;
+   margin: left-auto;
+   margin: right-auto;
+ 
+}
+
+header{
+    background:aqua;
+}
+
+a {
+    text-decoration: none;
+    margin-left: 15px;
+    color: #aaa;
+    text-transform: uppercase;
+    
+   
+}
+
+nav{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+
+
+section article div  {
+    width: 50%;
+}
+
+/*clases de utilidad*/
+
+.btn{
+background: #ccc;
+padding-right: 15px;
+padding-left: 15px;
+text-decoration: none;
+padding-top: 5px;
+padding-bottom: 5px;
+color: #fff;
+}
+
+.text-orange{
+    color: #ff3b01;
+}
+
+.text-darkgray{
+    color: #313243;
+}
+
+.text-lightgray{
+    color:#aaa;
+}
+
+
+.bg-orange{
+    background: #dd3b01;
+}
+
+.bg-darkgray{
+    background: #313243;
+}
+
+.display-block{
+    font-size: 50%;
+}
+
+/* agregar fondo*/
+
+section#principal{
+    background-image: url("yoga.png");
+
+    }
+
+
+    nav a:hover{
+        color: orangered;
+    }
