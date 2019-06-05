@@ -1,0 +1,35 @@
+*{
+    color: whitesmoke;
+    background: black;
+    margin:0%;
+    padding:2%;
+    font-size: 20px;
+    text-decoration: none;
+     
+    
+   
+}
+
+li a{
+    color:#9fd338;
+    text-descoration: none;
+    display: flex;
+   
+    background: red;
+}
+
+h1{
+    font-size: 40px;
+    margin-left:500px;
+    color: aqua;
+    display: flex;
+}
+
+.jose{
+    margin:0px;
+    color: white;
+}
+
+div h1 {
+  margin-left: 0%
+}
