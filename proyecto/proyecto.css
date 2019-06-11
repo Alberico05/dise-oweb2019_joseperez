@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family:Arial;
+    text-decoration: none;
+    max-width: 2000px;
+
+}
+
+body h4.numero{
+    background: #000000;
+    color: #FFFFFF;
+}
+
+header i a{
+    display: inline-block;
+    color: #BDC3C7;
+    
+  
+}
+
+header div i{
+    display: inline;
+
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+.flex{
+    display: flex;
+}
+
+.container{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
