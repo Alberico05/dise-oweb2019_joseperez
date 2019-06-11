@@ -1,18 +1,38 @@
+/* incluir fuentes*/
+@font-face {
+    font-family: PNRegular;
+    src: url("fuentes/ProximaNovaRegular.otf");
+}
+
+@font-face {
+    font-family: PNBold;
+    src: url("fuentes/ProximaNovaBold.otf");
+}
+
 *{
     margin: 0%;
     padding: 0%;
 }
 
 body{
-    font-family:Arial;
+    font-family:"PNRegular";
     text-decoration: none;
     max-width: 2000px;
 
 }
 
+h1, h2, h3 {
+    font-family: "PNBold";
+}
+
+h1{
+font-size: 30px;
+}
+
 body h4.numero{
     background: #000000;
     color: #FFFFFF;
+    height: 40px;
 }
 
 header i a{
@@ -28,11 +48,19 @@ header div i{
 }
 
 nav ul li{
+    display: inline-block;   
+}
+
+nav ul li a {
     display: inline-block;
+    padding: 25px;
+    margin-left: 70px;
+    text-decoration: none;
 }
 
 .flex{
     display: flex;
+    
 }
 
 .container{
@@ -40,4 +68,5 @@ nav ul li{
     margin-left: auto;
     margin-right: auto;
 }
+
 
