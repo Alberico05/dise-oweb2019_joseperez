@@ -9,46 +9,57 @@
     src: url("fuentes/ProximaNovaBold.otf");
 }
 
-*{
+* {
     margin: 0%;
     padding: 0%;
 }
 
-body{
-    font-family:"PNRegular";
+body {
+    font-family: "PNRegular";
     text-decoration: none;
     max-width: 2000px;
+    background-image: url("https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F33934827%2F129567275263%2F1%2Foriginal.jpg?w=1000&rect=0%2C167%2C2000%2C1000&s=c5d1453a0b084618ceb02452b44974e5");
+color: #FFFFFF;
+background-repeat: round;
+background-repeat: no-repeat;
+background-size: cover;
 
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: "PNBold";
 }
 
-h1{
-font-size: 30px;
+h1 {
+    font-size: 30px;
 }
 
-body h4.numero{
-    background: #000000;
+body header{
+    
     color: #FFFFFF;
     height: 40px;
 }
 
-header i a{
-    display: inline-block;
-    color: #BDC3C7;
-    
-  
+header div.flex{
+    display: flex;
 }
 
-header div i{
+header div div.information {
+    padding-left: 1100px;
+}
+
+
+
+
+header div i {
     display: inline;
 
 }
 
-nav ul li{
-    display: inline-block;   
+nav ul li {
+    display: inline-block;
 }
 
 nav ul li a {
@@ -56,17 +67,56 @@ nav ul li a {
     padding: 25px;
     margin-left: 70px;
     text-decoration: none;
-}
-
-.flex{
-    display: flex;
+    color: #FFFFFF;
     
 }
 
-.container{
+.flex {
+    display: flex;
+
+}
+
+.container {
     width: 95%;
     margin-left: auto;
     margin-right: auto;
 }
 
 
+form input{
+  display: block;
+  margin: 10px 10px;
+  margin-left: 30px;
+}
+
+form label{
+    margin-left: 30px;
+}
+
+form{
+    border: solid;
+  
+}
+
+
+/*---------------------Mision,Vision,Valores y contactos-----------------------------*/
+
+
+.mision {
+    background-image: url("https://images.pexels.com/photos/209209/pexels-photo-209209.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=650&w=940");
+    color: #FFFFFF;
+
+}
+
+
+.vision {
+    background-image: url();
+}
+
+.valores {
+    background-image: url();
+}
+
+.contactos {
+    background-image: url();
+}
